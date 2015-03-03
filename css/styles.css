@@ -1,15 +1,63 @@
 /*
 Carey's Collections
 Jonathan Carey*/
+/*
+Carey's Collections
+Jonathan Carey*/
 <style> 
-h1{background-color:#1BFF2C;
-   font-family: sans-serif;
-   border-color:#FF0000; 
+body {background-color: #6495ed;
 
+   font-family: Tahoma,Verdana,sans-serif;
+   border-color: #D8D8D8;
+   font-style: normal;
+   font-size: 30px;
+   font-weight: bold}
+
+nav {
+	background-color: grey;
+	color:blue ;
+	display: block;
+	position: fixed;
+	width:100%;
+	top:0;
 }
-h1{color:#E8B10C;font-size:50px}
-#content{width: 700px;
-margin:0 auto;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ li{
+ 	display:inline;
+ }
+
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav > ul > li > a {
+			color: black;
+			display: inline;
+			line-height: 100px;
+			padding: 30px 30px 30px 30px;
+			font-size: 30px;
+			font-family: garamond, times, serif;
+			font-style: bold;
+		}
+
+nav > ul > li:hover {
+          background-color: rgb( 40, 44, 47 );
+
+        }
+
+nav > ul > li:hover > a {
+          color: rgb( 255, 255, 255 );
+        }
+nav > ul > li:hover > a > .caret {
+          border-top-color: rgb( 255, 255, 255 );
 
 
 </style>
