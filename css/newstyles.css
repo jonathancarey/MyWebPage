@@ -1,0 +1,129 @@
+body{margin: 0px;
+font-family: 'PT Sans', sans-serif;}
+
+.main{ height: 700px;
+	  background-image:url("../images/field.jpg");
+	  background-position: center center;
+	  background-repeat: no-repeat; 
+	  background-size: cover}
+
+@media screen and (min-width: 100px){#container{height:700px;
+		   width: 1000px;
+		   margin:0 auto; }}
+
+
+
+.header{margin-top: 0px;
+		width:1000px;}
+nav{top:26px;
+	float: right}
+
+.navbar{color: white;
+		font-size: 20px;
+		margin-left: 25px;
+		text-decoration: none;}
+.navbar:hover{text-decoration: underline;};
+
+span{width: 100%}
+
+h1{font-size: 80px;
+   color: white;
+   text-align: center;
+   clear:both;
+   padding-top: 200px;}
+
+h2{font-size: 36px;
+   color: white;
+   text-align: center;
+   clear:both;
+   margin-top: -60px;}
+
+
+/*header section photos page*/
+
+#head{width: 100%;
+	  height: 350px;
+	  background-image: url("../images/field.jpg");
+	  background-position: center center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  background-attachment:fixed; }
+
+.photo{padding-top:75px; }
+
+/*footer section*/
+footer{width:120%;
+	   height:600px;
+	   background-color: #1a425e;
+	   margin-top: 500px;}
+
+#foot{width:1000px;
+	  height:100%;
+	  margin:0 auto;
+	   }
+
+h3{
+	color:white;
+}
+div.social{
+	float:left;
+	margin-top: 20px;
+
+}
+
+div.contact{
+	float:left;
+	margin-right: 200px;
+	margin-top: 20px;}
+label{
+	color: white;
+}
+
+input.text{
+	height: 30px;
+	width: 250px;
+	border-radius: 5px;
+	border: none;
+}
+
+textarea.message{
+	height: 100px;
+	width: 250px;
+	border-radius: 5px;
+	border: none;
+}
+
+input.submit{
+	width: 60px;
+	height: 30px;
+	background-color: white;
+	color:#1a425e; 
+	border: none;
+	border-radius: 5px;
+}
+
+input.submit:hover{
+	text-decoration: underline;
+}
+
+.articles{padding-top:75px;}
+
+
+.pics{
+	width: 300px;
+	height: 250px;}
+.padding{
+	padding-left: 46px;}
+
+
+.one{
+	margin-top: 46px;}
+
+.two{
+	margin-top: 46px;}
+.three{margin-top: 46px}
+
+.facebook{float:left;
+		margin-right: 10px;}
+.twitter{float:left;
+		margin-right: 5px;}
