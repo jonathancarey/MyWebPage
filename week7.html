@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Week 7 - Arrays, Objects and Loops</title>
+</head>
+<body>
+  <h1 id="headline">Storing Data in JavaScript</h1>
+  <ul id="list"></ul>
+
+
+
+
+<script>
+var leagues =['NBA', 'MLB','NFL','ABA'];
+
+for(var i = 0; i < leagues.length; i++){
+	console.log(leagues[i]);
+	var item = document.createElement('li');
+	var league = document.createTextNode(leagues[i]); 
+	item.appendChild(league);
+	var container = document.getElementById('list');
+	container.appendChild(item);
+
+}
+document.getElementById('headline').innerHTML = 'The Leagues of Sports';
+
+
+
+console.log(leagues)
+console.log(leagues[2]);
+
+var favoriteLeague = {
+	team:'colts',
+	sport:'football',
+	player:'Frank Gore',
+	coach:'Chuck Pagano',
+
+
+}
+console.log(favoriteLeague);
+console.log(favoriteLeague.team);
+
+var favoriteLeague =[	
+    {team:'colts',
+	sport:'football',
+	player:'Frank Gore',
+	coach:'Chuck Pagano',},
+
+{   team:'mavericks',
+	sport:'basketball',
+	player:'dirk',
+	coach:'Carlisle',},
+];
+
+console.log(favoriteLeague);
+console.log(favoriteLeague[1].coach);
+
+
+
+</script>
+</body>
+</html>
