@@ -7,6 +7,7 @@
    <meta name="author" content="Jonathan Carey"/>
    <meta name="description" content="Jonathan's portfolio website">
    <meta name= "keywords" content="CUNY, journalism, Resume, Portfolio, writings,">
+   <link rel="stylesheet" href="slick/slick.css" />
   </head>
 
 <body>
@@ -24,33 +25,37 @@
 </span>
 </div>
 
-<div id="container">
-<div class="one">
-	<img class="pics" src="photos/m1.jpg" />
-	<img class="pics padding" src="photos/m2.jpg" />
-	<img class="pics padding" src="photos/m3.jpg" />
 
-</div>
-
-<div class="two">
-	<img class="pics" src="photos/m5.jpg" />
-	<img class="pics padding" src="photos/m6.jpg" />
-	<img class="pics padding" src="photos/7.jpg" />
-</div>
-
-
-<div class="three">
-	<img class="pics" src="photos/m8.jpg" />
-	<img class="pics padding" src="photos/m9.jpg" />
-	<img class="pics padding" src="photos/m10.jpg" />
-</div>
 
 <p>Maecenas ullamcorper nisi ante, eu efficitur nunc venenatis et. In vulputate quis nisi vitae auctor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent condimentum sit amet eros et dignissim. Morbi dui elit, eleifend at arcu sed, vehicula iaculis nibh. Sed eu ornare enim, at ornare libero. Vivamus ante mi, tempus quis tellus ut, convallis ornare metus. Nunc viverra placerat dictum. Cras a egestas massa. Fusce ut semper justo. Cras vel sapien quam. Integer ut felis id neque sagittis mollis.
 
 Ut eu risus consectetur, porttitor mi quis, laoreet est. In malesuada turpis id purus porta, sit amet molestie lacus pulvinar. Morbi lectus tellus, interdum in tempor gravida, fringilla vitae justo. Ut quis velit fringilla, lobortis neque sed, semper elit. In hendrerit lorem id nisl euismod, a feugiat magna elementum. Aenean nunc nisl, malesuada sit amet placerat nec, fringilla a magna. Maecenas pretium, magna nec mattis molestie, enim felis fringilla metus, vel hendrerit erat justo non nisi.</p>
 
+
+ <h1 id="headline">Photography</h1>
+
+  <div class="photo-carousel">
+  <div><img src="photos/m1.jpg"/> </div>
+  <div><img src="photos/m2.jpg" /></div>
+  <div><img src="photos/m3.jpg" /></div>
+<div><img src="photos/m4.jpg" /></div>
+</div>
+				
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="slick/slick.min.js"></script>
+ <script>
+ $(document).ready(function(){
+ 	$('.photo-carousel').slick({
+ 		autoplay:false,
+ 		autoplaySpeed:500,
+ 		arrows:true
+ 	});
+ 	
+ 
+ });
+  </script>
+
 <footer>
-<div id="foot">
 <div class="social">
 <h3>Connect</h3>
 

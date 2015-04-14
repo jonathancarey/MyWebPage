@@ -51,6 +51,10 @@ h2{font-size: 36px;
 
 .photo{padding-top:75px; }
 
+.photo-carousel{position:relative;
+left:300px; 
+padding-top:20px;}
+
 /*footer section*/
 footer{width:120%;
 	   height:600px;
